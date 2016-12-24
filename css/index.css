@@ -1,0 +1,335 @@
+li {
+	list-style: none;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	font-family: "微软雅黑"
+}
+
+.nav {
+	padding-left: 10px;
+	box-sizing: border-box;
+	width: 1000px;
+	overflow: hidden;
+}
+
+.nav ul li {
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+}
+
+.nav ul li a {
+	color: #434343;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.nav ul li a.active {
+	text-decoration: underline;
+}
+
+.nav img {
+	float: right;
+	height: 25px;
+	width: 25px;
+}
+
+.boxs {
+	width: 100%;
+	height: 100%;
+}
+
+.icon-button {
+	position: absolute;
+	top: 50%;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin-top: -25px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.l-button {
+	background-image: url('../images/left.png');
+	left: 50px;
+}
+
+.r-button {
+	background-image: url('../images/right.png');
+	right: 50px;
+}
+
+.evelyn {
+	width: 260px;
+	margin: 120px 30px 50px 120px;
+}
+
+.text {
+	width: 200px;
+	margin-left: 150px;
+	color: #777;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.self {
+	display: none;
+	height: 740px;
+	width: 384px;
+	margin-right: 180px;
+}
+
+.self.in {
+	display: block;
+}
+
+.box-o img {
+	position: absolute;
+	top: 50%;
+	width: 660px;
+	left: 50%;
+	margin-left: -330px;
+}
+
+.button-down {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/down.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	background-size: cover;
+	margin-left: -15px;
+	cursor: pointer;
+}
+
+.po-re {
+	position: relative;
+	height: 500px;
+}
+
+.box-where div {
+	text-align: center;
+	width: 470px;
+	margin: 130px 10px;
+}
+
+.box-where div p {
+	text-align: left;
+}
+
+.box-where div h1 {
+	text-align: left;
+	margin-top: 50px;
+}
+
+.full-img {
+	width: 330px;
+	margin: 0px;
+}
+
+.l-img {
+	width: 350px;
+	margin-top: 50px;
+	
+}
+
+.box-where {
+	display: none;
+}
+
+.box-where.in {
+	display: block;
+}
+
+.left-space {
+	padding-left: 70px;
+}
+
+.more {
+	display: inline-block;
+	padding: 6px 35px;
+	color: #fff;
+	border-radius: 7px;
+	text-decoration: none;
+	background-color: #e7d3a9;
+}
+
+.more:hover {
+	background-color: #d8c69f;
+}
+
+.l-text {
+	position: relative;
+	left: 125px;
+	top: 110px;
+}
+
+.box-where p {
+	color: #828080;
+	font-size: 14px;
+}
+
+.r-text {
+	position: relative;
+	top: 170px;
+	left: -25px;
+}
+
+.nav1-2-bg {
+	background-image: url('../images/nav2-1.png');
+	background-size: cover;
+	height: 725px;
+	margin-top: 20px;
+}
+
+.nav-bg .nav {
+	position: relative;
+	top: -15px;
+	left: -24px;
+	z-index: 1111;
+}
+
+.nav-bg .nav a {
+	display: inline-block;
+	width: 76px;
+	height: 20px;
+}
+
+.nav2-2-bg {
+	background-image: url('../images/nav2-2.png');
+	background-size: cover;
+	height: 725px;
+	margin-top: 20px;
+}
+
+.nav3-2-bg {
+	background-image: url('../images/nav3-2.png');
+	background-size: cover;
+	height: 725px;
+	margin-top: 20px;
+}
+
+.ar-main {
+	padding: 50px;
+	/*margin-top: 60px;*/
+	overflow: hidden;
+}
+
+.ar-box {
+	width: 33.33%;
+	float: left;
+	/*margin: 50px;*/
+	height: 768px;
+	text-align: center;
+	background-color: #fff;
+	transition: background-color 0.5s;
+}
+
+.ar-box a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding-top: 90px;
+}
+
+.ar-bt {
+	color: #000;
+	font-size: 30px;
+}
+
+.ar-bt {
+	color: #000;
+}
+
+.ar-line {
+	width: 80px;
+	border: 1px solid #828080;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.ar-lt {
+	color: #9b9b9b;
+	margin-bottom: 15px;
+}
+
+.ar-box:hover{
+	background-color: #000;
+}
+
+.ar-box:hover .ar-bt{
+	color: #fff;
+}
+
+.ar-box:hover .ar-lt{
+	color: #9b9b9b;
+}
+
+.ar-text {
+	width: 860px;
+	margin: 30px auto;
+}
+
+.bfs {
+	display: inline-block;
+	width: 40px;
+	height: 10px;
+}
+
+.img-l {
+	float: left;
+}
+
+.img-r {
+	float: right;
+}
+
+.ar-text p {
+	margin-top: 30px;
+	color: #434343;
+	line-height: 23px;
+}
+
+.ot-main {
+	text-align: center;
+	padding: 50px;
+	/*margin-top: 60px;*/
+	overflow: hidden;
+}
+
+#flv {
+	position: relative;
+	left: 592px;
+	top: 42px;
+	background: #fff;
+	padding-bottom: 100px;
+}
