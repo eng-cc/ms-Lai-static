@@ -15,7 +15,28 @@ var hide = function () {
 	}
 }
 
+var randmani = function () {
+	var arr = ['fadeIn', 'bounceInUp', 'bounceInDown', 'rotateIn', 'flipInY', 'rollIn', 'bounceInRight', 'fadeInLeftBig']
+	var num = Math.floor(Math.random()*6)
+	return arr[num]
+}
+
+var ani = function () {
+	for (var i = 0; i < qa('.ani').length; i++) {
+		for (var j = 0; j < qa('.ani')[i].classList.length; j++) {
+			if (qa('.ani')[i].classList[j] !== 'ani' && qa('.ani')[i].classList[j] !== 'text' && qa('.ani')[i].classList[j] !== 'text-right' && qa('.ani')[i].classList[j] !== 'evelyn') {
+			qa('.ani')[i].classList.remove(qa('.ani')[i].classList[j])
+			}
+		}
+	}
+	for (var i = 0; i < qa('.ani').length; i++) {
+		qa('.ani')[i].classList.add('animated')
+		qa('.ani')[i].classList.add(randmani())
+	}
+}
+
 var changeImg = function (next) {
+	ani()
 	hide()
 	var imgs = qa('.self')
 	imgStatus = next ? imgStatus + 1 : imgStatus - 1

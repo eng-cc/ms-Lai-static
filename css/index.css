@@ -50,8 +50,8 @@ li {
 
 .nav img {
 	float: right;
-	height: 25px;
-	width: 25px;
+	height: 30px;
+	width: 30px;
 }
 
 .boxs {
@@ -72,12 +72,12 @@ li {
 
 .l-button {
 	background-image: url('../images/left.png');
-	left: 50px;
+	left: 0px;
 }
 
 .r-button {
 	background-image: url('../images/right.png');
-	right: 50px;
+	right: 0px;
 }
 
 .evelyn {
@@ -114,6 +114,10 @@ li {
 	margin-left: -330px;
 }
 
+.po-re {
+	margin-bottom: 100px;
+}
+
 .button-down {
 	display: inline-block;
 	width: 30px;
@@ -136,7 +140,7 @@ li {
 .box-where div {
 	text-align: center;
 	width: 470px;
-	margin: 130px 10px;
+	margin: 15px 10px;
 }
 
 .box-where div p {
