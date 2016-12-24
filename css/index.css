@@ -73,11 +73,13 @@ li {
 .l-button {
 	background-image: url('../images/left.png');
 	left: 0px;
+	z-index: 111
 }
 
 .r-button {
 	background-image: url('../images/right.png');
 	right: 0px;
+	z-index: 111
 }
 
 .evelyn {
@@ -140,7 +142,7 @@ li {
 .box-where div {
 	text-align: center;
 	width: 470px;
-	margin: 15px 10px;
+	margin: 10px 10px;
 }
 
 .box-where div p {
@@ -336,4 +338,8 @@ li {
 	top: 42px;
 	background: #fff;
 	padding-bottom: 100px;
+}
+
+.footermar {
+	margin: 20px 0;
 }

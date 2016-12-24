@@ -50,3 +50,30 @@ var changeImg = function (next) {
 	console.log(imgs[imgStatus])
 	imgs[imgStatus].classList.add('in')
 }
+
+q('footer').classList.add('footermar')
+
+var autoani = function () {
+	for (var i = 0; i < qa('div').length; i++) {
+		qa('div')[i].classList.add('animated')
+		qa('div')[i].classList.add(randmani())
+	}
+	for (var i = 0; i < qa('p').length; i++) {
+		qa('p')[i].classList.add('animated')
+		qa('p')[i].classList.add(randmani())
+	}
+	for (var i = 0; i < qa('a').length; i++) {
+		qa('a')[i].classList.add('animated')
+		qa('a')[i].classList.add(randmani())
+	}
+	for (var i = 0; i < qa('span').length; i++) {
+		qa('span')[i].classList.add('animated')
+		qa('span')[i].classList.add(randmani())
+	}
+	for (var i = 0; i < qa('li').length; i++) {
+		qa('li')[i].classList.add('animated')
+		qa('li')[i].classList.add(randmani())
+	}
+}
+
+autoani()
